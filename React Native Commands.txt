@@ -1,0 +1,29 @@
+=============== Create New Project ===============
+
+npx react-native init ProjectName
+
+----- OR -----
+
+npx @react-native-community/cli init ProjectName
+
+=============== After that go into the Project ===============
+
+cd ProjectName
+
+=============== To recreate the "node_modules" folder ===============
+
+npm install
+
+=============== Run into the Android ===============
+
+npx react-native run-android
+
+----- To Check Available Devices -----
+
+adb devices
+
+=============== To create new .tsx file with init data ===============
+
+Simplly type: rnfs
+It will create all the code by defalut.
+
